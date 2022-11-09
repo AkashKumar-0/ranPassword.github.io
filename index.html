@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/93e4961fc3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <div class="flex flex-col h-screen justify-center items-center">
+      <header>
+        <h1 class="text-7xl">Random PassWord Generator</h1>
+      </header>
+      <div class="dibba border flex border-none p-8 rounded-3xl bg-yellow-600">
+        <div>
+          <div class="flex items-center">
+            <input
+              type="text"
+              class="input-text rounded-md border-slate-900 w-fit outline-none p-3"
+            />
+            <i class="fa-solid fa-copy copy-icon cursor-pointer"></i>
+          </div>
+          <div class="mid flex justify-between">
+            <input
+              type="range"
+              min="6"
+              max="15"
+              class="slider cursor-pointer"
+            />
+            <span class="span-val"></span>
+          </div>
+        </div>
+        <div>
+          <p class="text-white teer cursor-pointer">&#8594;</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
