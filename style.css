@@ -59,4 +59,6 @@ h1 {
 }
 header {
   transform: translateY(-8rem);
+    font-family: cursive;
+
 }
