@@ -29,3 +29,5 @@ copyPassword.addEventListener('click', () => {
   navigator.clipboard.writeText(password.value);
   copyPassword.classList.replace('fa-copy', 'fa-file-circle-check');
 });
+
+const date = document.querySelector('.date').innerText = new Date();
