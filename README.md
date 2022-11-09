@@ -1,3 +1,3 @@
 # ranPassword.github.io
 
-this is just a ranfom password generator page
+this is just a random password generator page
